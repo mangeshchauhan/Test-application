@@ -16,6 +16,6 @@ public class DemoApplication {
 class HelloController {
     @GetMapping("/api/hello")
     public String hello() {
-        return "Hello from Spring Boot on EC2!";
+        return "Hello from Spring Boot on EC2 with Jenkins!";
     }
 }
